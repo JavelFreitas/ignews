@@ -8,10 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "create-hook": "husky add .husky/pre-commit \"npx lint-staged\""      
+    "create-hook": "husky add .husky/pre-commit \"npx lint-staged\""
   },
   "lint-staged": {
-    "**/*.{js, jsx, ts, tsx}": "prettier --write --ignore-unknown"
+    "**/*.{js,jsx,ts,tsx}": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "next": "12.1.5",
