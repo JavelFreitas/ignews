@@ -33,4 +33,4 @@ yarn-error.log*
 
 
 # linters
-.husky
+.husky/
